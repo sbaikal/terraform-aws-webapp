@@ -43,7 +43,7 @@ variable "instance_type" {
 variable "instance_count" {
   type        = number
   description = "Number of instances to create in VPC"
-  default     = 2
+  default     = null
 }
 
 variable "company" {
